@@ -161,7 +161,9 @@ fieldset[disabled] .btn-xl.active {
   color: #539b3f;
 }
 .navbar-custom .navbar-brand img {
+  position: relative;
   height: 24px;
+  top: -50%;
 }
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
@@ -592,27 +594,27 @@ section#contact ::-webkit-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: #ffffff;
+  color: #8a8a8a;
 }
 section#contact :-moz-placeholder {
   /* Firefox 18- */
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: #ffffff;
+  color: #8a8a8a;
 }
 section#contact ::-moz-placeholder {
   /* Firefox 19+ */
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: #ffffff;
+  color: #8a8a8a;
 }
 section#contact :-ms-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: #ffffff;
+  color: #8a8a8a;
 }
 section#contact .text-danger {
   color: #e74c3c;

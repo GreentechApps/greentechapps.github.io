@@ -93,7 +93,9 @@ h1, h2, h3, h4, h5, h6 {
             color: darken(@theme-primary, 10%);
         }
         img {
+            position: relative;
             height: 24px;
+            top: -50%;
         }
     }
     .navbar-collapse {
@@ -575,22 +577,22 @@ section#contact {
     ::-webkit-input-placeholder {
        .heading-font;
        font-weight: 700;
-       color: @gray-lighter;
+       color: @gray-light;
     }
     :-moz-placeholder { /* Firefox 18- */
        .heading-font;
        font-weight: 700;
-       color: @gray-lighter;
+       color: @gray-light;
     }
     ::-moz-placeholder {  /* Firefox 19+ */
        .heading-font;
        font-weight: 700;
-       color: @gray-lighter;
+       color: @gray-light;
     }
     :-ms-input-placeholder {  
        .heading-font;
        font-weight: 700;
-       color: @gray-lighter;
+       color: @gray-light;
     }
     .text-danger {
         color: @theme-danger;
