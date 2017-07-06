@@ -162,8 +162,13 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-brand img {
   position: relative;
-  height: 24px;
-  top: -50%;
+  height: 36px;
+  display: inline-block;
+  top: -20%;
+}
+.navbar-custom .navbar-brand .text {
+  position: relative;
+  top: -20%;
 }
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
@@ -219,6 +224,12 @@ fieldset[disabled] .btn-xl.active {
   }
   .navbar-custom .navbar-brand img {
     height: 48px;
+    position: relative;
+    top: -50%;
+  }
+  .navbar-custom .navbar-brand .text {
+    position: relative;
+    top: -50%;
   }
   .navbar-custom .navbar-nav > .active > a {
     border-radius: 3px;
@@ -563,6 +574,7 @@ aside.clients img {
 }
 section#reviews {
   background: #464646;
+  color: white;
 }
 section#contact {
   background-color: #353535;
@@ -584,7 +596,7 @@ section#contact .form-group input.form-control {
   height: auto;
 }
 section#contact .form-group textarea.form-control {
-  height: 236px;
+  height: 150px;
 }
 section#contact .form-control:focus {
   border-color: #6ab954;

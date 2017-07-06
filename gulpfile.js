@@ -68,6 +68,12 @@ gulp.task('copy', function() {
             '!node_modules/font-awesome/*.json'
         ])
         .pipe(gulp.dest('vendor/font-awesome'))
+	
+	gulp.src([
+	   'node_modules/animate.js/assets/js/dist/animate.min.js',
+	   'node_modules/animate.js/assets/css/animate.css'
+        ])
+        .pipe(gulp.dest('vendor/animate.js'))
 })
 
 // Run everything

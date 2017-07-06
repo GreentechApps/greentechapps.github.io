@@ -94,8 +94,13 @@ h1, h2, h3, h4, h5, h6 {
         }
         img {
             position: relative;
-            height: 24px;
-            top: -50%;
+            height: 36px;
+            display: inline-block;
+            top: -20%;
+        }
+        .text {
+            position: relative;
+            top: -20%;
         }
     }
     .navbar-collapse {
@@ -155,6 +160,12 @@ h1, h2, h3, h4, h5, h6 {
 
             img {
                 height: 48px;
+                position: relative;
+                top: -50%;
+            }
+            .text {
+                position: relative;
+                top: -50%;
             }
         }
         .navbar-nav>.active>a {
@@ -545,6 +556,7 @@ aside.clients {
 
 section#reviews {
     background: @gray-dark;
+    color: white;
 }
 
 // Contact Section
@@ -567,7 +579,7 @@ section#contact {
             height: auto;
         }
         textarea.form-control {
-            height: 236px;
+            height: 150px;
         }
     }
     .form-control:focus {
