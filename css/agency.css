@@ -297,7 +297,7 @@ header .intro-text .intro-heading {
   }
 }
 section {
-  padding: 100px 0;
+  padding: 64px 0;
 }
 section h2.section-heading {
   font-size: 40px;
@@ -688,7 +688,7 @@ ul.social-buttons li a:active {
   box-shadow: none;
   border: none;
   min-height: 100%;
-  padding: 100px 0;
+  padding: 64px 0;
   text-align: center;
 }
 .apps-modal .modal-content h2 {
